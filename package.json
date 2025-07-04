@@ -1,6 +1,6 @@
 {
-  "name": "react-side-effect",
-  "version": "2.1.2",
+  "name": "@nuva-org/react-side-effect",
+  "version": "2.2.0",
   "description": "Create components whose prop changes map to a global side effect",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-side-effect.git"
+    "url": "https://github.com/Nuva-Org/react-side-effect"
   },
   "keywords": [
     "react",
@@ -31,7 +31,8 @@
     "Louis DeScioli (https://descioli.design)"
   ],
   "peerDependencies": {
-    "react": "^16.3.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {},
   "devDependencies": {
